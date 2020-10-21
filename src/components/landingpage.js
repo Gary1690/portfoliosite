@@ -1,33 +1,51 @@
 import React from 'react'
 import Typical from 'react-typical'
-import { Cell, Grid } from 'react-mdl'
 
 const LandingPage = () => {
   return (
-    <section style = {{width:'100%',margin:'auto',  backgroundColor: 'blue'}}>
-       <div>
-         <h1> Hi I am  <strong>Gary Cordero</strong></h1>
+    <div className="landing" style = {{width:'100%',margin:'auto',marginTop:"-1.7em"}}>
+       <section id="landing">
+         <h1> Hi, I am Gary Cordero</h1>
           <p>
             I am a 
             <Typical
               loop = {Infinity}
               wrapper = "b"
               steps = {[
-                " Developer",
+                " Software Engineer.",
                 1000,
-                " Problem Solver",
+                " Problem Solver.",
                 1000,
-                " Gamer",
+                " Avid Reader.",
                 1000,
-                " Avid Reader",
+                " City Explorer.",
                 1000,
-                " Foodie",
+                " Foodie.",
                 1000
               ]}
             />
+            <hr/>
           </p>
-       </div>
-    </section>
+          <div className="social">
+            {/*linkedin*/}
+            <a href ="http://google.com">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            {/*Github*/}
+            <a href ="http://google.com">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+             {/*Medium*/}
+            <a href ="http://google.com">
+              <i class="fa fa-medium" aria-hidden="true"></i>
+            </a>
+             {/*Email*/}
+            <a href ="http://google.com">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            </a>
+          </div>
+       </section>
+    </div>
   )
 }
 

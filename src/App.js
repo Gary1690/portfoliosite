@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
-import Main from './components/main'
 import {Link} from 'react-router-dom'
+import LandingPage from './components/landingpage';
+import About from './components/about';
  
 function App() {
   return (
@@ -11,7 +12,6 @@ function App() {
           <Layout >
               <Header className="header-color" title=" " style={{color: 'white'}}>
                   <Navigation>
-                      <Link to="/">Landing Page</Link>
                       <Link to="/about">About</Link>
                       <Link to="/resume">Resume</Link>
                       <Link to="/projects">Projects</Link>
@@ -20,7 +20,6 @@ function App() {
               </Header>
               <Drawer title="Menu">
                   <Navigation>
-                      <Link to="/">Landing Page</Link>
                       <Link to="/about">About</Link>
                       <Link to="/resume">Resume</Link>
                       <Link to="/projects">Projects</Link>
@@ -28,7 +27,8 @@ function App() {
                   </Navigation>
               </Drawer>
               <Content >
-                <Main/> 
+                 <LandingPage/>
+                 <About/>
               </Content>
           </Layout>
       </div>
