@@ -4,6 +4,7 @@ import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
 import {Link} from 'react-router-dom'
 import LandingPage from './components/landingpage';
 import About from './components/about';
+import Resume from './components/resume';
  
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
               <Content >
                  <LandingPage/>
                  <About/>
+                 <Resume/>
               </Content>
           </Layout>
       </div>

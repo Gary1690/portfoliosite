@@ -18,7 +18,7 @@ const LandingPage = () => {
                 1000,
                 " Avid Reader.",
                 1000,
-                " City Explorer.",
+                " Outdoor Explorer.",
                 1000,
                 " Foodie.",
                 1000
