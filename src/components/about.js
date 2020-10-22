@@ -16,7 +16,7 @@ const About = () => {
             </Cell>
             <Cell col={9}>
                 <h4>About Me</h4>
-                <p> Full stack web developer with strengths in Ruby, C#, Java and JavaScript frameworks. Strong foundation in software engineering and object oriented programming concepts with experience in retail sales and business operations. </p>
+                <p> Full stack web developer with strengths in Ruby, C#, Java and JavaScript frameworks and a strong foundation in software engineering and object oriented programming concepts with experience in retail sales and business operations. </p>
             </Cell>
           </Grid>
       </section>
