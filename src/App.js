@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
+import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
 import {Link} from 'react-router-dom'
 import LandingPage from './components/landingpage';
 import About from './components/about';
 import Resume from './components/resume';
+import Projects from './components/projects';
  
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
                  <LandingPage/>
                  <About/>
                  <Resume/>
+                 <Projects/>
               </Content>
           </Layout>
       </div>

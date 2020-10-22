@@ -6,7 +6,7 @@ const LandingPage = () => {
     <div className="landing" style = {{width:'100%',margin:'auto',marginTop:"-1.7em"}}>
        <section id="landing">
          <h1> Hi, I am Gary Cordero</h1>
-          <p>
+          <p className="message">
             I am a 
             <Typical
               loop = {Infinity}
@@ -24,8 +24,15 @@ const LandingPage = () => {
                 1000
               ]}
             />
+            </p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <p className="skills"> Ruby | Ruby on Rails | JavaScript | Reactjs | CSS and Bootstrap | Java | C#</p>
             <hr/>
-          </p>
           <div className="social">
             {/*linkedin*/}
             <a href ="http://google.com">

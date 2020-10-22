@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Grid } from 'react-mdl'
+import { Cell, Grid, ProgressBar } from 'react-mdl'
 
 const Resume = () => {
   return (
@@ -10,12 +10,17 @@ const Resume = () => {
             <h4>Education</h4>
           </Cell>
           <Cell col={9}>
-          <h4>Flatiron School</h4>
-          <h6><i><b>Software Engineering Inmersive</b> - Aug. 2020</i></h6>
-          <br/>
-          <h4>Universidad Autonoma de Santo Domingo</h4>
-          <h6><i><b>Bachelor of Science in Computer Science</b> - Oct. 2020</i></h6>
+            <h4>Flatiron School</h4>
+            <h6><i><b>Software Engineering Inmersive</b> - Aug. 2020</i></h6>
+            <br/>
+            <h4>Universidad Autonoma de Santo Domingo</h4>
+            <h6><i><b>Bachelor of Science in Computer Science</b> - Oct. 2020</i></h6>
           </Cell>
+
+          <Cell col={12}>
+           <hr/>
+          </Cell>
+          
           <Cell col={3}>
             <h4>Work</h4>
           </Cell>

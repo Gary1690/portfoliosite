@@ -24,9 +24,15 @@
   font-weight: bold;
   font-family: monospace;
 }
-.landing p {
+.landing p.message {
   font-size: 3em;
 }
+
+.landing  p.skils {
+  font-size: 1em;
+  font-weight: bold;
+}
+
 
 .landing hr {
   border-top: white solid 1px;
@@ -73,7 +79,7 @@
 }
 
 .resume{
-  height: 70vh;
+  min-height: 70vh;
 }
 
 .resume h4{
@@ -93,6 +99,13 @@
 .resume ul{
   margin-left:3em;
   font-family: monospace;
+}
+
+.resume hr{
+  border-top: black solid 1px;
+  opacity: .3;
+  width: 50%;
+  margin:auto;
 }
 
 section {
