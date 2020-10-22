@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cell, Grid, ProgressBar } from 'react-mdl'
+import { Cell, Grid} from 'react-mdl'
 
 const Resume = () => {
   return (

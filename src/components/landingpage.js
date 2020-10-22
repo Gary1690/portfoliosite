@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 
 const LandingPage = () => {
   return (
-    <div className="landing" style = {{width:'100%',margin:'auto',marginTop:"-1.7em"}}>
+    <div className="landing" style = {{width:'100%',margin:'auto'}}>
        <section id="landing">
          <h1> Hi, I am Gary Cordero</h1>
           <p className="message">
@@ -25,30 +25,28 @@ const LandingPage = () => {
               ]}
             />
             </p>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <p className="skills"> Ruby | Ruby on Rails | JavaScript | Reactjs | CSS and Bootstrap | Java | C#</p>
+            
+            <div className="skillset">
+               <p className="skills"> Ruby | Ruby on Rails | JavaScript | Reactjs | CSS and Bootstrap | Java | C#</p>
+            </div>
+           
             <hr/>
           <div className="social">
             {/*linkedin*/}
             <a href ="http://google.com">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             {/*Github*/}
             <a href ="http://google.com">
-              <i class="fa fa-github" aria-hidden="true"></i>
+              <i className="fa fa-github" aria-hidden="true"></i>
             </a>
              {/*Medium*/}
             <a href ="http://google.com">
-              <i class="fa fa-medium" aria-hidden="true"></i>
+              <i className="fa fa-medium" aria-hidden="true"></i>
             </a>
              {/*Email*/}
             <a href ="http://google.com">
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
           </div>
        </section>

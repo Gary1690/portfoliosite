@@ -1,6 +1,6 @@
 import React from 'react'
 import { Cell, Grid} from 'react-mdl'
-import avatar from './gary.jpg'
+import avatar from '../resources/gary.jpg'
 
 const About = () => {
   return (
