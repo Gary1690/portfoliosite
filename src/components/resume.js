@@ -4,7 +4,7 @@ import { Cell, Grid} from 'react-mdl'
 const Resume = () => {
   return (
     <div className="resume" style = {{width:'100%',margin:'auto'}}>
-      <section id="resume">
+      <section id=" ">
       <Grid>
           <Cell col={3}>
             <h4>Education</h4>

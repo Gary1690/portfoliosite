@@ -7,20 +7,20 @@ const LandingPage = () => {
        <section id="landing">
          <h1> Hi, I am Gary Cordero</h1>
           <p className="message">
-            I am a 
+            I am  
             <Typical
               loop = {Infinity}
               wrapper = "b"
               steps = {[
-                " Software Engineer.",
+                " a Software Engineer.",
                 1000,
-                " Problem Solver.",
+                " a Problem Solver.",
                 1000,
-                " Avid Reader.",
+                " an Avid Reader.",
                 1000,
-                " Outdoor Explorer.",
+                " an Outdoor Explorer.",
                 1000,
-                " Foodie.",
+                " a Foodie.",
                 1000
               ]}
             />
@@ -33,19 +33,19 @@ const LandingPage = () => {
             <hr/>
           <div className="social">
             {/*linkedin*/}
-            <a href ="http://google.com">
+            <a href ="https://www.linkedin.com/in/gary-a-cordero-rosa-048552145/" target="_blank">
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
             {/*Github*/}
-            <a href ="http://google.com">
+            <a href ="https://github.com/Gary1690" target="_blank">
               <i className="fa fa-github" aria-hidden="true"></i>
             </a>
              {/*Medium*/}
-            <a href ="http://google.com">
+            <a href ="https://medium.com/@garycordero1690" target="_blank">
               <i className="fa fa-medium" aria-hidden="true"></i>
             </a>
              {/*Email*/}
-            <a href ="http://google.com">
+            <a href ="mailto:garycordero1690@gmail.com" target="_blank">
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
           </div>
